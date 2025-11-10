@@ -1,20 +1,29 @@
-🏦 SmartBank — Java Console Banking Management System
-A simple yet functional Bank Management System built in Java with Postgresql database integration. This project simulates common banking operations such as account creation, deposits, withdrawals, balance checking etc.
+# 🏦 SmartBank — Java Console Banking Management System
 
-🚀 Features
+A simple yet functional **Bank Management System** built in **Java** with **PostgreSQL** database integration.  
+This project simulates common banking operations such as **account creation, deposits, withdrawals, and balance checking**.
 
-👤 User Features
-Create Account — Register a new customer with personal details.
-Deposit Money — Add funds to an existing account.
-Withdraw Money — Withdraw funds (with balance validation).
-Check Balance — View current balance.
-Exit          - Exit Application
+---
 
-🧰 Account Access Valid
-  take account number
-  4 digit pin set at account creation time
-  
-🏗️ Project Structure
+## 🚀 Features
+
+### 👤 User Features
+- **Create Account** — Register a new customer with personal details.  
+- **Deposit Money** — Add funds to an existing account.  
+- **Withdraw Money** — Withdraw funds (with balance validation).  
+- **Check Balance** — View current balance.  
+- **Exit** — Exit the application.  
+
+---
+
+## 🧰 Account Access Validation
+- Input **account number**  
+- 4-digit **PIN** set during account creation  
+
+---
+
+## 🏗️ Project Structure
+
 Bank_Management_System/
 ├── bin/
 │   └── banking_system/    
@@ -33,18 +42,27 @@ Bank_Management_System/
 │   └── postgresql-connecter-42.7.8.jar
 └── README.md                      # Documentation 
 
-⚙️ Technologies Used
-Category	      Technology
-Language	    Java (JDK 17+)
-Database	    PostgreSql
-Connection	  JDBC (PostgreSql Connector)
-UI	          Console-based text menus
-Tool	        Eclipse
 
-🗃️ Database Summary
+---
 
-1️⃣ Create the Database
+## ⚙️ Technologies Used
+
+| **Category** | **Technology** |
+|---------------|----------------|
+| Language | Java (JDK 17+) |
+| Database | PostgreSQL |
+| Connection | JDBC (PostgreSQL Connector) |
+| UI | Console-based text menus |
+| Tool | Eclipse |
+
+---
+
+## 🗃️ Database Summary
+
+### 1️⃣ Create the Database
+```sql
 CREATE DATABASE bank;
+
 
 2️⃣ Connect To Database
 \c bank 
